@@ -1,0 +1,11 @@
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Redis\bin\Debug\JinRi.Flight.Redis.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Redis\bin\Debug\JinRi.Flight.Redis.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Redis\bin\Debug\JinRi.Flight.Utility.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Redis\bin\Debug\Newtonsoft.Json.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Redis\bin\Debug\StackExchange.Redis.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Redis\bin\Debug\JinRi.Flight.Utility.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Redis\bin\Debug\Newtonsoft.Json.xml
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Redis\bin\Debug\StackExchange.Redis.xml
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Redis\obj\Debug\JinRi.Flight.Redis.csprojResolveAssemblyReference.cache
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Redis\obj\Debug\JinRi.Flight.Redis.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Redis\obj\Debug\JinRi.Flight.Redis.pdb

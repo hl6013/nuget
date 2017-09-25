@@ -1,0 +1,3 @@
+﻿使用必须要有的配置
+AppId
+BaseDataUrl：基础数据接口URL

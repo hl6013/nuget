@@ -1,0 +1,5 @@
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Order.Model\bin\Debug\JinRi.Order.Model.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Order.Model\bin\Debug\JinRi.Order.Model.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Order.Model\obj\Debug\JinRi.Order.Model.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Order.Model\obj\Debug\JinRi.Order.Model.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Order.Model\obj\Debug\JinRi.Order.Model.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Pay.Model\bin\Debug\JinRi.Pay.Model.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Pay.Model\bin\Debug\JinRi.Pay.Model.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Pay.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Pay.Model\bin\Debug\Newtonsoft.Json.xml
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Pay.Model\obj\Debug\JinRi.Pay.Model.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Pay.Model\obj\Debug\JinRi.Pay.Model.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Pay.Model\obj\Debug\JinRi.Pay.Model.csprojResolveAssemblyReference.cache

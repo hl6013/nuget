@@ -1,0 +1,7 @@
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Utility\bin\Debug\JinRi.Flight.Utility.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Utility\bin\Debug\JinRi.Flight.Utility.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Utility\bin\Debug\Newtonsoft.Json.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Utility\bin\Debug\Newtonsoft.Json.xml
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Utility\obj\Debug\JinRi.Flight.Utility.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Utility\obj\Debug\JinRi.Flight.Utility.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Flight.Utility\obj\Debug\JinRi.Flight.Utility.csprojResolveAssemblyReference.cache

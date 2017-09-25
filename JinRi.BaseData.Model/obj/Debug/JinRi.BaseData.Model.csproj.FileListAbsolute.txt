@@ -1,0 +1,4 @@
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.BaseData.Model\bin\Debug\JinRi.BaseData.Model.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.BaseData.Model\bin\Debug\JinRi.BaseData.Model.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.BaseData.Model\obj\Debug\JinRi.BaseData.Model.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.BaseData.Model\obj\Debug\JinRi.BaseData.Model.pdb

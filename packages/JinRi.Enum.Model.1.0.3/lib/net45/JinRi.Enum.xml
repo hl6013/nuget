@@ -1,0 +1,1484 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JinRi.Enum</name>
+    </assembly>
+    <members>
+        <member name="T:JinRi.Enum.Common.Http.ReturnCode">
+            <summary>
+            返回代码
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.Fail">
+            <summary>
+            远程请求失败
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.Data_Operation_Error">
+            <summary>
+            数据操作失败
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.SUCCESS">
+            <summary>
+            表示成功
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.SYSTEM_ERROR">
+            <summary>
+            系统错误，未知服务异常。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.SECURITY_CHECK_ERROR">
+            <summary>
+            安全验证错误，不符合安全校验规则。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.INPUT_INVALID">
+            <summary>
+            输入参数为空或错误。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.MERCHANT_ILLEGAL">
+            <summary>
+            非授权合作商户。（合作商户merchant_id错误）
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.REMARK_INVALID">
+            <summary>
+            备注不能超过100个字符。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ACCESS_FORBID">
+            <summary>
+            访问限制，访问频率过高，被禁止。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.BALANCE_LESS">
+            <summary>
+            合作商户余额不足，暂时停用，请充值后通知服务商重新启用！
+            </summary>            
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.LOGIN_EXCEPTION">
+            <summary>
+            登录异常
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.LOGIN_ERROR">
+            <summary>
+            用户名或密码错误
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ACCOUNT_EXIST">
+            <summary>
+            用户名已存在
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ACCOUNT_NOT_EXIST">
+            <summary>
+            用户名不存在
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ORIGINAL_PWD_ERROR">
+            <summary>
+            原密码错误
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.PASSENGER_EXIST">
+            <summary>
+            常旅客已存在
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.PASSENGER_NOT_EXIST">
+            <summary>
+            常旅客不存在
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.PASSENGER_ILLEGAL">
+            <summary>
+            非该用户的常旅客
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.PASSENGER_NAME_REPEAT">
+            <summary>
+            常旅客姓名重复
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.PASSENGER_IDNUM_REPEAT">
+            <summary>
+            常旅客证件号码重复
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ADMIN_USER_NO_EXISTS">
+            <summary>
+            后台用户不存在
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.QUERY_ORDER_ABNORMITY">
+            <summary>
+            订单查询其他异常(除1x能够表示的状态之外的状态)
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.QUERY_TICKET_PARAM">
+            <summary>
+            余票查询参数输入错误。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.STATION_INPUT_NULL">
+            <summary>
+            输入车站名为空，请确认!
+            </summary> 
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.DEP_ERR">
+            <summary>
+            出发车站错误。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ARR_ERR">
+            <summary>
+            到达车站错误。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.STATIN_INPUT_INVALID">
+            <summary>
+            输入车站名错误，请确认
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.NO_TRAIN_INFO">
+            <summary>
+            查询返回数据失败，暂无列车信息
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.TRAIN_NUMBER">
+            <summary>
+            车次信息有误，暂无该列车信息
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ORDER_ABNORMITY">
+            <summary>
+            下订单其他异常(除1x能够表示的状态之外的状态)
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.DUPLICATE_ORDER">
+            <summary>
+            重复下单异常
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.TIME_OUT_REFUSE_ORDER">
+            <summary>
+            不在受理时间内，拒绝下订单操作，请在规定时间执行此操作。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.FIVE_LIMIT">
+            <summary>
+            一个订单最多允许订购五张票。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.QUERY_ORDER_ABNORMITY_OTHER">
+            <summary>
+            查询订单其他异常（除2x能够表示的状态之外的状态）
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ORDER_NO_FIND">
+            <summary>
+            订单未找到（订单号错误或不存在）
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ORDER_OWNER_ERROR">
+            <summary>
+            非该用户订单
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.CANCEL_ORDER_ABNORMITY">
+            <summary>
+            取消订单其他异常（除3x能够表示的状态之外的状态)
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ORDER_OUT_CANT_CANCEL">
+            <summary>
+            订单已出票成功，无法取消，请走退票退款流程。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.TIME_OUT_NO_CANCEL">
+            <summary>
+            不在受理退款时间内，拒绝取消订单操作, 请在规定时间执行此操作。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.SEARCH_STATION_ABNORMITY">
+            <summary>
+            查询途经站信息其他异常(除5x能够表示的状态之外的状态)
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.TEMP_NO_STATION_INFO">
+            <summary>
+            暂时没有该途经站信息。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.PAYING_ABNORMITY">
+            <summary>
+            支付过程其他异常(除6x能够表示的状态之外的状态)
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.PAY_ORDER_AMOUNT_NO_MATCH">
+            <summary>
+            支付金额与下单时支付金额不符。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ORDER_PAYED">
+            <summary>
+            该订单已经支付成功，拒绝重复支付。 
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.NO_ORDER_PAY_AUTH">
+            <summary>
+            没有开通预定中支付订单权限。 
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.TIMEOUT_PAY">
+            <summary>
+            超过约定支付有效时间期，该订单已禁止支付。
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.INSURANCE_ABNORMITY">
+            <summary>
+            保险查询过程其他异常(除7x能够表示的状态之外的状态)
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ORDER_NO_INSURANCE_INFO">
+            <summary>
+            订单下无相关保险信息 
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.CHANGE_ABNORMITY">
+            <summary>
+            改签过程其他异常(除8x能够表示的状态之外的状态)
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.REFUSE_NO_EXISTE_ORDER">
+            <summary>
+            拒绝不存在订单改签和重复申请订单改签。 
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.OUT_TICKET_CAN_CHANGE">
+            <summary>
+            出票成功的订单才可以申请改签。 
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.FLIGHT_INFO_NO_EXSTIS">
+            <summary>
+            航班信息不存在
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.RECORD_EXSITS">
+            <summary>
+            记录已存在
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.RECORD_NOT_EXSITS">
+            <summary>
+            记录不存在
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ILLEGAL_REQUEST">
+            <summary>
+            非法请求
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ORDER_OUT_PAY_PERIOD">
+            <summary>
+            订单超出支付时间段
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.ORDER_STATUS_ERROR">
+            <summary>
+            订单状态错误
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.Http.ReturnCode.Refund_Fail">
+            <summary>
+            退款失败
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Common.User">
+            <summary>
+            用户枚举类
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Common.User.PassengerType">
+            <summary>
+            乘机人类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.PassengerType.ADU">
+            <summary>
+            成人
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.PassengerType.CHD">
+            <summary>
+            儿童
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.PassengerType.INF">
+            <summary>
+            婴儿
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.PassengerType.FADU">
+            <summary>
+            婴儿
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.PassengerType.FCHD">
+            <summary>
+            婴儿
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Common.User.Sexual">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.Sexual.Male">
+            <summary>
+            男性
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.Sexual.Female">
+            <summary>
+            女性
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.Sexual.Other">
+            <summary>
+            其他
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Common.User.IdentifyClass">
+            <summary>
+            证件类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.IdentifyClass.IdCard">
+            <summary>
+            身份证
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.IdentifyClass.Passport">
+            <summary>
+            护照
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.IdentifyClass.Officer">
+            <summary>
+            港澳通行证
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.IdentifyClass.Taiwan">
+            <summary>
+            台胞证                                                                                             
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.IdentifyClass.Other">
+            <summary>
+            其它
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Common.User.Role">
+            <summary>
+            用户角色
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.Role.Seller">
+            <summary>
+            分销商
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.Role.Provider">
+            <summary>
+            供票商
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.Role.Admin">
+            <summary>
+            平台管理员
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.Role.Tuiniu">
+            <summary>
+            途牛
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Common.User.Role.System">
+            <summary>
+            系统【特指自动化相关的】
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Flight.FlightEnum">
+            <summary>
+            飞机相关的枚举
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Flight.FlightEnum.CabinClass">
+            <summary>
+            舱位等级
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinClass.A">
+            <summary>
+            所有舱位
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinClass.Y">
+            <summary>
+            经济舱
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinClass.C">
+            <summary>
+            公务舱
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinClass.F">
+            <summary>
+            头等舱    
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinClass.S">
+            <summary>
+            超级经济舱    
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Flight.FlightEnum.CabinLevel">
+            <summary>
+            舱位
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.A">
+            <summary>
+            A
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.B">
+            <summary>
+            B
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.C">
+            <summary>
+            C
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.D">
+            <summary>
+            D
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.E">
+            <summary>
+            E
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.F">
+            <summary>
+            F
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.G">
+            <summary>
+            G
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.H">
+            <summary>
+            H
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.I">
+            <summary>
+            I
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.J">
+            <summary>
+            J
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.K">
+            <summary>
+            K
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.L">
+            <summary>
+            L
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.M">
+            <summary>
+            M
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.N">
+            <summary>
+            N
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.O">
+            <summary>
+            O
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.P">
+            <summary>
+            P
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.Q">
+            <summary>
+            Q
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.R">
+            <summary>
+            R
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.S">
+            <summary>
+            S
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.T">
+            <summary>
+            T
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.U">
+            <summary>
+            U
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.V">
+            <summary>
+            V
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.W">
+            <summary>
+            W
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.X">
+            <summary>
+            X
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.Y">
+            <summary>
+            Y
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CabinLevel.Z">
+            <summary>
+            Z
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Flight.FlightEnum.CraftWidthType">
+            <summary>
+            机型大小
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CraftWidthType.None">
+            <summary>
+            无机型大小
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CraftWidthType.Big">
+            <summary>
+            配送
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CraftWidthType.Mid">
+            <summary>
+            上门
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.CraftWidthType.Small">
+            <summary>
+            上门
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Flight.FlightEnum.FlightType">
+            <summary>
+            航程/政策类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightType.OW">
+            <summary>
+            单程
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightType.RT">
+            <summary>
+            往返
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightType.MT">
+            <summary>
+            多程
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Flight.FlightEnum.FlightTripType">
+            <summary>
+            航班类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightTripType.InlandArr">
+            <summary>
+            国内始发
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightTripType.FlightSoto">
+            <summary>
+            直飞soto
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightTripType.InlandArrAddon">
+            <summary>
+            国内始发add-on
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightTripType.ForeignArrAddon">
+            <summary>
+            国外始发add-on
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightTripType.OutOfCountry">
+            <summary>
+            境外到境外
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightTripType.InternalTransfer">
+            <summary>
+            国内始发中转
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightTripType.ForeignArrTransfer">
+            <summary>
+            国外始发中转
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightTripType.OutOfCountryTransfer">
+            <summary>
+            境外境外境外
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightTripType.OutsideTerritory">
+            <summary>
+            境外境内境外
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightTripType.GlobalToGlobal">
+            <summary>
+            全球到全球
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightTripType.GlobalTransit">
+            <summary>
+            全球中转全球
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Flight.FlightEnum.FlightSource">
+            <summary>
+            航班来源
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightSource.Ctrip">
+            <summary>
+            单程
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightSource.Tuniu">
+            <summary>
+            途牛
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightSource.JinRi">
+            <summary>
+            今通
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightSource._517na">
+            <summary>
+            517
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightSource.NoNight">
+            <summary>
+            不夜城
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightSource.Taobao">
+            <summary>
+            淘宝
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightSource.quNar">
+            <summary>
+            去哪儿
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightSource.ly">
+            <summary>
+            同城
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Flight.FlightEnum.FlightSource.eTerm">
+            <summary>
+            eTerm
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.OrderSource">
+            <summary>
+            订单来源
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.OrderSource.IFlight">
+            <summary>
+            国际平台
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.OrderSource.Tuniu">
+            <summary>
+            途牛
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.OrderStatus">
+            <summary>
+            订单状态
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.OrderStatus.NoStatus">
+            <summary>
+            空订单状态
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.OrderStatus.ConfirmWaitting">
+            <summary>
+            等待审核
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.OrderStatus.PayWaitting">
+            <summary>
+            等待支付
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.OrderStatus.Payed">
+            <summary>
+            支付成功
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.OrderStatus.OutTicketed">
+            <summary>
+            出票成功
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.OrderStatus.AuditReturn">
+            <summary>
+            审核退回
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.OrderStatus.RefundApply">
+            <summary>
+            申请退票
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.OrderStatus.Refunding">
+            <summary>
+            退款中
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.OrderStatus.Cancel">
+            <summary>
+            取消订单
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.OrderStatus.CannotRefund">
+            <summary>
+            暂不能退
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.OrderStatus.RefundSuccess">
+            <summary>
+            退款成功
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.TicketStatus">
+            <summary>
+            机票（乘客）状态
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.TicketStatus.Normal">
+            <summary>
+            默认
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.TicketStatus.ApplyRefund">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.TicketStatus.RefundSuccess">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.TicketStatus.Refunding">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.ChangeReason">
+            <summary>
+            改期原因
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ChangeReason.WillChange">
+            <summary>
+            自愿改期
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ChangeReason.UnWillChange">
+            <summary>
+            非自愿及特殊改期
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.ChangeStatus">
+            <summary>
+            改期状态
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ChangeStatus.WaitAudit">
+            <summary>
+            待审核
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ChangeStatus.AuditReturn">
+            <summary>
+            审核退回
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ChangeStatus.WaitPay">
+            <summary>
+            待付款
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ChangeStatus.Payed">
+            <summary>
+            支付成功
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ChangeStatus.WaitComplete">
+            <summary>
+            待完成
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ChangeStatus.Completed">
+            <summary>
+            已完成
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ChangeStatus.Failed">
+            <summary>
+            已失败
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ChangeStatus.Canceled">
+            <summary>
+            已取消
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ChangeStatus.Refunding">
+            <summary>
+            退款中
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ChangeStatus.RefundSuccess">
+            <summary>
+            退款完成
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.RefundState">
+            <summary>
+            退票状态
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundState.Apply">
+            <summary>
+            申请退款
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundState.Refunding">
+            <summary>
+            退款处理中
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundState.ConfirmRefund">
+            <summary>
+            退款中
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundState.Refunded">
+            <summary>
+            退款完成
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundState.AuditReturn">
+            <summary>
+            申请退回
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.RefundType">
+            <summary>
+            退废类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundType.Repeal">
+            <summary>
+            废票
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundType.Refund">
+            <summary>
+            退票
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.AccountType">
+            <summary>
+            退款类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.AccountType.Provider">
+            <summary>
+            退供应
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.AccountType.Platform">
+            <summary>
+            退平台
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.AccountType.Profit">
+            <summary>
+            退利润
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.AccountType.Fenrun">
+            <summary>
+            分润
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.AccountType.Suppl">
+            <summary>
+            退补差
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.ApplyRefundType">
+            <summary>
+            申请退款类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ApplyRefundType.Default">
+            <summary>
+            正常退款
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ApplyRefundType.PatchRefund">
+            <summary>
+            补退款
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.RefundReson">
+            <summary>
+            退票原因
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundReson.ByOrder">
+            <summary>
+            按客规自愿退票
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundReson.Special">
+            <summary>
+            非自愿及特殊退票
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.RefundStatus">
+            <summary>
+            退废订单状态
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundStatus.Default">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundStatus.Repeal">
+            <summary>
+            废票
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundStatus.Refund">
+            <summary>
+            退票
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundStatus.Repealed">
+            <summary>
+            已废
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundStatus.Refunded">
+            <summary>
+            已退
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.RefundStatus.Audit">
+            <summary>
+            审核
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.TearmOrderStatus">
+            <summary>
+            团队票状态
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.TearmOrderStatus.Cancel">
+            <summary>
+            取消订单
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.TearmOrderStatus.Apply">
+            <summary>
+            提交申请
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.TearmOrderStatus.WaitPay">
+            <summary>
+            等待支付
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.TearmOrderStatus.SuccPay">
+            <summary>
+            支付成功
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.TearmOrderStatus.Finish">
+            <summary>
+            出票成功
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.ExpressType">
+            <summary>
+            配送类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ExpressType.Distribution">
+            <summary>
+            快递
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.ExpressType.TheDoor">
+            <summary>
+            自取
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.JourneyMode">
+            <summary>
+            行程单获取方式
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.JourneyMode.Post">
+            <summary>
+            邮寄[另加10元]
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.JourneyMode.SelfGet">
+            <summary>
+            自取
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.JourneyMode.Keep">
+            <summary>
+            保留
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Order.OrderEnum.PlantType">
+            <summary>
+            TODO:这个和User.Role里面的类型是有冲突的，后续需要处理下
+            账户类型  
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.PlantType.Platform">
+            <summary>
+            平台
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.PlantType.Provide">
+            <summary>
+            供应商
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Order.OrderEnum.PlantType.Purchase">
+            <summary>
+            采购商
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Pay.PayEnum">
+            <summary>
+            支付，货币相关枚举
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Pay.PayEnum.Currency">
+            <summary>
+            币种类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.Currency.RMB">
+            <summary>
+            人民币
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.Currency.USD">
+            <summary>
+            美元
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.Currency.HKD">
+            <summary>
+            港币
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.Currency.JPY">
+            <summary>
+            日元
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.Currency.EUR">
+            <summary>
+            欧元
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.Currency.GBP">
+            <summary>
+            英镑
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.Currency.THB">
+            <summary>
+            泰铢
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.Currency.KRW">
+            <summary>
+            韩元
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Pay.PayEnum.PayType">
+            <summary>
+            支付类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.PayType.OFFL">
+            <summary>
+            线下支付
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.PayType.ZFB">
+            <summary>
+            支付宝
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.PayType.WX">
+            <summary>
+            支付宝
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.PayType.KQ">
+            <summary>
+            块钱
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.PayType.CFT">
+            <summary>
+            财付通
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Pay.PayEnum.TradeType">
+            <summary>
+            交易类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.TradeType.Pay">
+            <summary>
+            支付
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.TradeType.Refund">
+            <summary>
+            退款
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.TradeType.Profit">
+            <summary>
+            分润
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.TradeType.RefundProfit">
+            <summary>
+            退分润
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.TradeType.SendersPay">
+            <summary>
+            补差
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.TradeType.RefundSendersPay">
+            <summary>
+            退补差
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Pay.PayEnum.SupplStatus">
+            <summary>
+            补差枚举
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.SupplStatus.TradeSuppl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.SupplStatus.RefundSuppl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Pay.PayEnum.SupplType">
+            <summary>
+            返点类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.SupplType.Policy">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Pay.PayEnum.SupplType.voucher">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Policy.OperateRule">
+            <summary>
+            运营规则枚举
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Policy.PolicyEnum">
+            <summary>
+            政策枚举
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Policy.PolicyEnum.PolicyState">
+            <summary>
+            政策状态
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.PolicyState.WitAudit">
+            <summary>
+            等待审核
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.PolicyState.AuditReturn">
+            <summary>
+            审核退回
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.PolicyState.Open">
+            <summary>
+            启用
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.PolicyState.Pause">
+            <summary>
+            挂起
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.PolicyState.ForceOpen">
+            <summary>
+            强制启用
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.PolicyState.ForcePause">
+            <summary>
+            强制挂起
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.PolicyState.AllOpen">
+            <summary>
+            全部启用
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.PolicyState.AllPause">
+            <summary>
+            全部挂起
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.PolicyState.Delete">
+            <summary>
+            软删除
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Policy.PolicyEnum.TicketType">
+            <summary>
+            票本类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.TicketType.BSP">
+            <summary>
+            BSP
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.TicketType.B2B">
+            <summary>
+            B2B
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.TicketType.OVEL">
+            <summary>
+            境外电子
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Policy.PolicyEnum.TicketGDS">
+            <summary>
+            票本GDS
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.TicketGDS.IETRM">
+            <summary>
+            境内ETRM
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.TicketGDS.OETRM">
+            <summary>
+            境外ETRM
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.TicketGDS.GALIEO">
+            <summary>
+            GALIEO
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.TicketGDS.AMADUES">
+            <summary>
+            AMADUES
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.TicketGDS.ABACUS">
+            <summary>
+            ABACUS
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.TicketGDS.WORLDSPAN">
+            <summary>
+            WORLDSPAN
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Policy.PolicyEnum.EncodeType">
+            <summary>
+            换编码类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.EncodeType.NONE">
+            <summary>
+            无需换编码
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.EncodeType.ChangeEncode">
+            <summary>
+            换编码出票
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.EncodeType.LargeNOCE">
+            <summary>
+            大编出票(无需换编)
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.EncodeType.LargeNeedCE">
+            <summary>
+            大编出票(需换编)
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.EncodeType.NOSEAT">
+            <summary>
+            无位不换出票(外放有位时换编)
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Policy.PolicyEnum.ShareFlightType">
+            <summary>
+            共享航班类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.ShareFlightType.NONE">
+            <summary>
+            默认值
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.ShareFlightType.NoReward">
+            <summary>
+            全程无奖励
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.ShareFlightType.FullReward">
+            <summary>
+            全程指定奖励
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.ShareFlightType.ShareNoReward">
+            <summary>
+            共享段无奖励
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.ShareFlightType.ShareFullReword">
+            <summary>
+            共享段指定奖励
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.ShareFlightType.PartailSNA">
+            <summary>
+            部分共享需供审
+            </summary>
+        </member>
+        <member name="T:JinRi.Enum.Policy.PolicyEnum.OfficeType">
+            <summary>
+            指定office换编类型
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.OfficeType.NONE">
+            <summary>
+            默认值
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.OfficeType.NChangeEncode">
+            <summary>
+            不换编
+            </summary>
+        </member>
+        <member name="F:JinRi.Enum.Policy.PolicyEnum.OfficeType.NOpenTicket">
+            <summary>
+            不开票
+            </summary>
+        </member>
+    </members>
+</doc>

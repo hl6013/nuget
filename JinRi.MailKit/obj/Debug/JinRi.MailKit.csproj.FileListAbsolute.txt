@@ -1,0 +1,10 @@
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.MailKit\bin\Debug\JinRi.MailKit.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.MailKit\bin\Debug\JinRi.MailKit.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.MailKit\bin\Debug\BouncyCastle.Crypto.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.MailKit\bin\Debug\MailKit.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.MailKit\bin\Debug\MimeKit.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.MailKit\bin\Debug\MailKit.xml
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.MailKit\bin\Debug\MimeKit.xml
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.MailKit\obj\Debug\JinRi.MailKit.csprojResolveAssemblyReference.cache
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.MailKit\obj\Debug\JinRi.MailKit.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.MailKit\obj\Debug\JinRi.MailKit.pdb

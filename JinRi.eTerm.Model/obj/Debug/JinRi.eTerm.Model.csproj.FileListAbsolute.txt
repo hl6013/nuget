@@ -1,0 +1,5 @@
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.eTerm.Model\bin\Debug\JinRi.eTerm.Model.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.eTerm.Model\bin\Debug\JinRi.eTerm.Model.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.eTerm.Model\obj\Debug\JinRi.eTerm.Model.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.eTerm.Model\obj\Debug\JinRi.eTerm.Model.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.eTerm.Model\obj\Debug\JinRi.eTerm.Model.csprojResolveAssemblyReference.cache

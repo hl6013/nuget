@@ -1,0 +1,5 @@
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Enum.Model\bin\Debug\JinRi.Enum.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Enum.Model\bin\Debug\JinRi.Enum.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Enum.Model\obj\Debug\JinRi.Enum.Model.csprojResolveAssemblyReference.cache
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Enum.Model\obj\Debug\JinRi.Enum.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Enum.Model\obj\Debug\JinRi.Enum.pdb

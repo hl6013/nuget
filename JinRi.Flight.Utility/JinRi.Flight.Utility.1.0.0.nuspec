@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>JinRi.Flight.Utility</id>
+        <version>1.0.0</version>
+        <authors>功夫熊猫</authors>
+        <owners>今日天下通国际开发部</owners>
+        <iconUrl>http://gjcdn.jinri.cn/static/logo/logo-32X32.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>今日天下通国际开发部工具类</description>
+        <dependencies>
+            <dependency id="Newtonsoft.Json" version="10.0.3" />
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="Microsoft.VisualBasic" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Web" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Drawing" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Xml" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework="" />
+            <frameworkAssembly assemblyName="System.Net" targetFramework="" />
+        </frameworkAssemblies>
+    </metadata>
+    <files />
+</package>

@@ -1,0 +1,5 @@
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Policy.Model\bin\Debug\JinRi.Policy.Model.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Policy.Model\bin\Debug\JinRi.Policy.Model.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Policy.Model\obj\Debug\JinRi.Policy.Model.dll
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Policy.Model\obj\Debug\JinRi.Policy.Model.pdb
+C:\Work Code\nuget\JinRi.FlightModel.Nuget\src\JinRi.Policy.Model\obj\Debug\JinRi.Policy.Model.csprojResolveAssemblyReference.cache

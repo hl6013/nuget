@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>JinRi.Pay.Model</id>
+    <version>1.0.0</version>
+    <authors>功夫熊猫</authors>
+    <iconUrl>http://gjcdn.jinri.cn/static/logo/logo-32X32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>国际机票支付实体</description>
+  </metadata>
+</package>
